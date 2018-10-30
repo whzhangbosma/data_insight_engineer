@@ -27,5 +27,6 @@ In total, time is O(N), space is O(N).
 
 ## How to Run
 give 3 arguments in run.sh, 1 arg is the directory and name of input file; 2 args are the directories and names of output files (top_10_occupation.txt and top_10_states.txt respectively)
-then use the command (before this you may need chmod +x run.sh):
+then use below command (before this you may need chmod +x run.sh):
+
 ./run.sh 
