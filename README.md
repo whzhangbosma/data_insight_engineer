@@ -7,7 +7,7 @@ As a data engineer, you are asked to create a mechanism to analyze past years da
 
 Your code should be modular and reusable for future. If the newspaper gets data for the year 2019 (with the assumption that the necessary data to calculate the metrics are available) and puts it in the input directory, running the run.sh script should produce the results in the output folder without needing to change the code.
 
-## Algorithm
+## Approach
 
 (1) Go through the whole csv file and store the names of all occupations appeared in that csv file as keys and their corresponding frequencies as values in a dictionary called "occ_rec", and the names of all states and corresponding frequencies in another dictionary called "pos_rec". 
 This takes O(N) time and O(N) extra space.
