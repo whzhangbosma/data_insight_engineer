@@ -1,1 +1,1 @@
-python3 src/test.py input/h1b_input.csv output/occupation.dat output/state.dat
+python3 src/h1b_counting_bash.py input/h1b_input.csv output/top_10_occupations.txt output/top_10_states.txt
