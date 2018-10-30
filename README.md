@@ -26,7 +26,7 @@ complexity:
 In total, time is O(N), space is O(N).
 
 ## How to Run
-give 3 arguments in run.sh, 1 arg is the directory and name of input file; 2 args are the directories and names of output files (top_10_occupation.txt and top_10_states.txt respectively)
-then use below command (before this you may need: chmod +x run.sh)
+give 4 arguments to run.sh, the first one is the name of source code; the second arg is the directory and name of input file; the last 2 args are the directories and names of output files (top_10_occupation.txt and top_10_states.txt respectively)
+then use below command (before this you may need to run: chmod +x run.sh)
 
 ./run.sh 
